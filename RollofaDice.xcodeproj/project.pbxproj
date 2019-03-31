@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40F267382250EA8700381CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F267372250EA8700381CE4 /* AppDelegate.swift */; };
+		40F2673A2250EA8700381CE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F267392250EA8700381CE4 /* ViewController.swift */; };
+		40F2673D2250EA8700381CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2673B2250EA8700381CE4 /* Main.storyboard */; };
+		40F2673F2250EA8B00381CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F2673E2250EA8B00381CE4 /* Assets.xcassets */; };
+		40F267422250EA8B00381CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F267402250EA8B00381CE4 /* LaunchScreen.storyboard */; };
+		40F2674D2250EA8B00381CE4 /* RollofaDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2674C2250EA8B00381CE4 /* RollofaDiceTests.swift */; };
+		40F267582250EA8B00381CE4 /* RollofaDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F267572250EA8B00381CE4 /* RollofaDiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40F267492250EA8B00381CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F2672C2250EA8700381CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F267332250EA8700381CE4;
+			remoteInfo = RollofaDice;
+		};
+		40F267542250EA8B00381CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40F2672C2250EA8700381CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F267332250EA8700381CE4;
+			remoteInfo = RollofaDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40F267342250EA8700381CE4 /* RollofaDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollofaDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F267372250EA8700381CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40F267392250EA8700381CE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40F2673C2250EA8700381CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40F2673E2250EA8B00381CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40F267412250EA8B00381CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40F267432250EA8B00381CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F267482250EA8B00381CE4 /* RollofaDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollofaDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F2674C2250EA8B00381CE4 /* RollofaDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollofaDiceTests.swift; sourceTree = "<group>"; };
+		40F2674E2250EA8B00381CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F267532250EA8B00381CE4 /* RollofaDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollofaDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F267572250EA8B00381CE4 /* RollofaDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollofaDiceUITests.swift; sourceTree = "<group>"; };
+		40F267592250EA8B00381CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40F267312250EA8700381CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F267452250EA8B00381CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F267502250EA8B00381CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F2672B2250EA8700381CE4 = {
+			isa = PBXGroup;
+			children = (
+				40F267362250EA8700381CE4 /* RollofaDice */,
+				40F2674B2250EA8B00381CE4 /* RollofaDiceTests */,
+				40F267562250EA8B00381CE4 /* RollofaDiceUITests */,
+				40F267352250EA8700381CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40F267352250EA8700381CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F267342250EA8700381CE4 /* RollofaDice.app */,
+				40F267482250EA8B00381CE4 /* RollofaDiceTests.xctest */,
+				40F267532250EA8B00381CE4 /* RollofaDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40F267362250EA8700381CE4 /* RollofaDice */ = {
+			isa = PBXGroup;
+			children = (
+				40F267372250EA8700381CE4 /* AppDelegate.swift */,
+				40F267392250EA8700381CE4 /* ViewController.swift */,
+				40F2673B2250EA8700381CE4 /* Main.storyboard */,
+				40F2673E2250EA8B00381CE4 /* Assets.xcassets */,
+				40F267402250EA8B00381CE4 /* LaunchScreen.storyboard */,
+				40F267432250EA8B00381CE4 /* Info.plist */,
+			);
+			path = RollofaDice;
+			sourceTree = "<group>";
+		};
+		40F2674B2250EA8B00381CE4 /* RollofaDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				40F2674C2250EA8B00381CE4 /* RollofaDiceTests.swift */,
+				40F2674E2250EA8B00381CE4 /* Info.plist */,
+			);
+			path = RollofaDiceTests;
+			sourceTree = "<group>";
+		};
+		40F267562250EA8B00381CE4 /* RollofaDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40F267572250EA8B00381CE4 /* RollofaDiceUITests.swift */,
+				40F267592250EA8B00381CE4 /* Info.plist */,
+			);
+			path = RollofaDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F267332250EA8700381CE4 /* RollofaDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F2675C2250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDice" */;
+			buildPhases = (
+				40F267302250EA8700381CE4 /* Sources */,
+				40F267312250EA8700381CE4 /* Frameworks */,
+				40F267322250EA8700381CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RollofaDice;
+			productName = RollofaDice;
+			productReference = 40F267342250EA8700381CE4 /* RollofaDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40F267472250EA8B00381CE4 /* RollofaDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F2675F2250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDiceTests" */;
+			buildPhases = (
+				40F267442250EA8B00381CE4 /* Sources */,
+				40F267452250EA8B00381CE4 /* Frameworks */,
+				40F267462250EA8B00381CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F2674A2250EA8B00381CE4 /* PBXTargetDependency */,
+			);
+			name = RollofaDiceTests;
+			productName = RollofaDiceTests;
+			productReference = 40F267482250EA8B00381CE4 /* RollofaDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40F267522250EA8B00381CE4 /* RollofaDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F267622250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDiceUITests" */;
+			buildPhases = (
+				40F2674F2250EA8B00381CE4 /* Sources */,
+				40F267502250EA8B00381CE4 /* Frameworks */,
+				40F267512250EA8B00381CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40F267552250EA8B00381CE4 /* PBXTargetDependency */,
+			);
+			name = RollofaDiceUITests;
+			productName = RollofaDiceUITests;
+			productReference = 40F267532250EA8B00381CE4 /* RollofaDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40F2672C2250EA8700381CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Shivam;
+				TargetAttributes = {
+					40F267332250EA8700381CE4 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					40F267472250EA8B00381CE4 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 40F267332250EA8700381CE4;
+					};
+					40F267522250EA8B00381CE4 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 40F267332250EA8700381CE4;
+					};
+				};
+			};
+			buildConfigurationList = 40F2672F2250EA8700381CE4 /* Build configuration list for PBXProject "RollofaDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40F2672B2250EA8700381CE4;
+			productRefGroup = 40F267352250EA8700381CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40F267332250EA8700381CE4 /* RollofaDice */,
+				40F267472250EA8B00381CE4 /* RollofaDiceTests */,
+				40F267522250EA8B00381CE4 /* RollofaDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40F267322250EA8700381CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F267422250EA8B00381CE4 /* LaunchScreen.storyboard in Resources */,
+				40F2673F2250EA8B00381CE4 /* Assets.xcassets in Resources */,
+				40F2673D2250EA8700381CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F267462250EA8B00381CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F267512250EA8B00381CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40F267302250EA8700381CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F2673A2250EA8700381CE4 /* ViewController.swift in Sources */,
+				40F267382250EA8700381CE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F267442250EA8B00381CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F2674D2250EA8B00381CE4 /* RollofaDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40F2674F2250EA8B00381CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F267582250EA8B00381CE4 /* RollofaDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40F2674A2250EA8B00381CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F267332250EA8700381CE4 /* RollofaDice */;
+			targetProxy = 40F267492250EA8B00381CE4 /* PBXContainerItemProxy */;
+		};
+		40F267552250EA8B00381CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F267332250EA8700381CE4 /* RollofaDice */;
+			targetProxy = 40F267542250EA8B00381CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40F2673B2250EA8700381CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F2673C2250EA8700381CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40F267402250EA8B00381CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40F267412250EA8B00381CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40F2675A2250EA8B00381CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40F2675B2250EA8B00381CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40F2675D2250EA8B00381CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40F2675E2250EA8B00381CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40F267602250EA8B00381CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollofaDice.app/RollofaDice";
+			};
+			name = Debug;
+		};
+		40F267612250EA8B00381CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RollofaDice.app/RollofaDice";
+			};
+			name = Release;
+		};
+		40F267632250EA8B00381CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollofaDice;
+			};
+			name = Debug;
+		};
+		40F267642250EA8B00381CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RollofaDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shivam.RollofaDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RollofaDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40F2672F2250EA8700381CE4 /* Build configuration list for PBXProject "RollofaDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F2675A2250EA8B00381CE4 /* Debug */,
+				40F2675B2250EA8B00381CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F2675C2250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F2675D2250EA8B00381CE4 /* Debug */,
+				40F2675E2250EA8B00381CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F2675F2250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F267602250EA8B00381CE4 /* Debug */,
+				40F267612250EA8B00381CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F267622250EA8B00381CE4 /* Build configuration list for PBXNativeTarget "RollofaDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40F267632250EA8B00381CE4 /* Debug */,
+				40F267642250EA8B00381CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40F2672C2250EA8700381CE4 /* Project object */;
+}
