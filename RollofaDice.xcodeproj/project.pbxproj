@@ -14,6 +14,9 @@
 		40F267422250EA8B00381CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F267402250EA8B00381CE4 /* LaunchScreen.storyboard */; };
 		40F2674D2250EA8B00381CE4 /* RollofaDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2674C2250EA8B00381CE4 /* RollofaDiceTests.swift */; };
 		40F267582250EA8B00381CE4 /* RollofaDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F267572250EA8B00381CE4 /* RollofaDiceUITests.swift */; };
+		40F267662250EB0300381CE4 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40F267652250EB0300381CE4 /* American Captain.otf */; };
+		40F267672250EB0300381CE4 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40F267652250EB0300381CE4 /* American Captain.otf */; };
+		40F267682250EB0300381CE4 /* American Captain.otf in Resources */ = {isa = PBXBuildFile; fileRef = 40F267652250EB0300381CE4 /* American Captain.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		40F267532250EA8B00381CE4 /* RollofaDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollofaDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F267572250EA8B00381CE4 /* RollofaDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollofaDiceUITests.swift; sourceTree = "<group>"; };
 		40F267592250EA8B00381CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F267652250EB0300381CE4 /* American Captain.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "American Captain.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				40F2673E2250EA8B00381CE4 /* Assets.xcassets */,
 				40F267402250EA8B00381CE4 /* LaunchScreen.storyboard */,
 				40F267432250EA8B00381CE4 /* Info.plist */,
+				40F267652250EB0300381CE4 /* American Captain.otf */,
 			);
 			path = RollofaDice;
 			sourceTree = "<group>";
@@ -232,6 +237,7 @@
 				40F267422250EA8B00381CE4 /* LaunchScreen.storyboard in Resources */,
 				40F2673F2250EA8B00381CE4 /* Assets.xcassets in Resources */,
 				40F2673D2250EA8700381CE4 /* Main.storyboard in Resources */,
+				40F267662250EB0300381CE4 /* American Captain.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F267672250EB0300381CE4 /* American Captain.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F267682250EB0300381CE4 /* American Captain.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
